@@ -1,0 +1,210 @@
+body {
+  text-align: -webkit-center;
+  width: 55%;
+  margin: 0 auto;
+  background: #000000;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #434343, #000000);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #434343, #000000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  color: azure;
+}
+
+.input {
+  margin: 2%;
+}
+
+.input_addTodo {
+  width: 50%;
+  margin: 1%;
+  border-radius: 3px;
+  border-top: none;
+  background: none;
+  color: azure;
+}
+
+.addTodo_button {
+  width: 10%;
+  border: none;
+  border-radius: 20px;
+  background: none;
+  -webkit-text-stroke: thin;
+  border-bottom: 1.5px solid azure;
+  color: azure;
+  transition-property: left, background-color, text-decoration, ;
+  transition-duration: .4s, .4s;
+  transition-timing-function: ease, ease-out;
+  transition-delay: 0s, .2s; 
+}
+
+.addTodo_button:hover {
+  background-color: azure;
+  color: black;
+  text-decoration: underline;
+}
+.addedOn {
+  float: right;
+  margin-top: 0%
+}
+
+
+::placeholder {
+  color: azure;
+}
+
+.h3_addTodo {
+  display: flex;
+}
+
+ul {
+  width: 96%;
+  list-style: none;
+  margin: 2% -4% 0% -4%;
+  padding-inline-start: unset;
+}
+
+.p_Todo {
+  float: left;
+  margin-top: auto;
+  border: solid;
+  border-radius: 7px;
+  cursor: pointer;
+}
+
+
+.li_Todo {
+  border-bottom: 1px solid azure;
+  border-right: 1px solid azure;
+  border-left: 1px solid azure;
+  display: list-item;
+  border-radius: 10px;
+  margin: 2%;
+  padding: 1%;
+  flex-direction: row;
+  vertical-align: baseline;
+  text-align: center;
+  overflow-x: auto;
+  overflow-y: auto;
+}
+
+.AddTodo_h3 {
+  border: solid;
+  border-radius: 10px;
+  width: 20%;
+  margin: auto;
+}
+
+a {
+  text-decoration: none;
+  color: azure;
+  margin-left: 19%;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.all_button {
+  border-radius: 18px;
+  margin: 10px;
+  width: 15%;
+  justify-content: space-evenly;
+  transition-property: left, background-color, text-decoration;
+  transition-duration: .4s, .4s;
+  transition-timing-function: ease, ease-out;
+  transition-delay: 0s, .2s;
+}
+
+.all_button:hover {
+  text-decoration: underline;
+  color: rgb(241, 241, 241);
+  background-color: rgb(94, 70, 66);
+}
+
+span {
+  text-decoration: underline;
+  margin: 10px;
+  width: 15%;
+  justify-content: space-evenly;
+}
+
+/*<-- Page Details --> */
+
+.TodoDetail {
+  border-bottom: 1px solid azure;
+  border-right: 1px solid azure;
+  border-left: 1px solid azure;
+  border-radius: 10px;
+  margin: 2%;
+  padding: 1%;
+  flex-direction: row;
+  vertical-align: baseline;
+  text-align: center;
+  overflow-x: auto;
+  overflow-y: auto;
+}
+
+.TodoDetail_h1 {
+  text-decoration: underline;
+}
+
+.TodoDetail_completed {
+  display: inline;
+  float: left;
+  margin-top: auto;
+  border: solid;
+  border-radius: 7px;
+}
+
+
+.TodoDetail_todo {
+  display: inline;
+  margin-left: 18%;
+}
+
+.TodoDetail_addedOn {
+  display: inline;
+  float: right;
+  margin-top: auto;
+}
+
+.TodoDetail_goBack {
+  border-radius: 18px;
+  margin: 10px;
+  width: 10%;
+  float: right;
+  transition-property: left, background-color, text-decoration;
+  transition-duration: .4s, .4s;
+  transition-timing-function: ease, ease-out;
+  transition-delay: 0s, .2s;
+}
+
+.TodoDetail_goBack:hover {
+  text-decoration: underline;
+  color: rgb(241, 241, 241);
+  background-color: rgb(94, 70, 66);
+}
+
+/* <-- Page Whoops --> */
+
+.whoops {
+  float: none;
+  font-weight: 900;
+  font-size: 200%;
+  margin-top: 5%;
+}
+
+.whoops_goback {
+  border-radius: 18px;
+  margin: 10px;
+  width: 15%;
+  justify-content: space-evenly;
+  transition-property: left, background-color, text-decoration;
+  transition-duration: .4s, .4s;
+  transition-timing-function: ease, ease-out;
+  transition-delay: 0s, .2s;
+}
+
+.whoops_goback:hover {
+  text-decoration: underline;
+  color: rgb(241, 241, 241);
+  background-color: rgb(94, 70, 66);
+}
